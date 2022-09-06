@@ -1,0 +1,926 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(238, 238, 238, 0.904);
+    padding: 30px 20px;
+    z-index: 1;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.imagen {
+    text-align: left;
+    margin-right: 20px;
+}
+
+.search_image {
+    text-align: center;
+}
+
+.barra_busqueda {
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+    display: flex;
+}
+
+.barra__busqueda--boton {
+    height: 30px;
+    width: 40px;
+    border-radius: 30px;
+    border-color: black;
+}
+
+body {
+    background-color: #eee;
+    height: 2000px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+}
+
+.card2 {
+    background-color: #ffffff;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+}
+
+.serv_pelu {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 130px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 60%);
+}
+
+.card__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.serv__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card__title2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card__description {
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.card__link {
+    background-color: #22c55e;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card__link2 {
+    margin-top: 20px;
+    background-color: #22c55e;
+    display: inline-block;
+    margin-left: 175px;
+    margin-bottom: 30px;
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    color: #e2e8f0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card_header-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pelu_header-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card__header {
+    position: relative;
+}
+
+.pelu__header {
+    position: relative;
+}
+
+.card__header-tag {
+    padding: 8px;
+    color: #fff;
+    background-color: rgb(19, 0, 0);
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header__content-title {
+    color: black;
+    font-size: 40px;
+}
+
+.header__content-navbar {
+    display: flex;
+}
+
+.header__content-navbar a {
+    margin: 0 15px;
+    color: black;
+}
+
+.courses {
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+.services_haircut {
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+.courses__title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.services_title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.courses__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__content2 {
+    display: grid;
+    justify-content: center;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+.piedepagina {
+    display: grid;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer_title4 {
+    text-align: center;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+}
+
+.instagram {
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+}
+
+.twitter {
+    position: fixed;
+    bottom: 40px;
+    right: 135px;
+}
+
+.linkedin {
+    position: fixed;
+    bottom: 40px;
+    right: 200px;
+}
+
+.card_register {
+    background-color: white;
+    border: 20px 20px;
+    padding: 20px;
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+    border-color: black;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.774);
+    position: relative;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+
+.card--register {
+    position: relative;
+}
+
+.register_input {
+    padding: 7px;
+}
+
+.registro {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.main__register {
+    height: 600px;
+    position: relative;
+}
+
+.courses__content2 {
+    display: grid;
+    grid-template-columns: 500px;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.register_input1 {
+    padding: 7px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 85px;
+}
+
+.register-input1 {
+    grid-area: Nombre;
+    display: inline-block;
+}
+
+.register_input2 {
+    padding: 7px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.register_input3 {
+    padding: 7px;
+    width: 314px;
+    border-radius: 10px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.register_input4 {
+    padding: 7px;
+    width: 314px;
+    border-radius: 10px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.register_input5 {
+    padding: 7px;
+    width: 314px;
+    border-radius: 10px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.register_input6 {
+    padding: 7px;
+    width: 314px;
+    border-radius: 10px;
+    margin-left: 85px;
+    margin-top: 15px;
+}
+
+.register_input7 {
+    padding: 7px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #22c55e;
+    color: #ffffff;
+}
+
+.register_footer {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 18px;
+    padding: 0 50px;
+}
+
+.register_footer2 {
+    text-align: center;
+}
+
+.register_login {
+    color: rgb(0, 140, 255);
+}
+
+.register_block {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_section4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image_peluqueria {
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 250px;
+    margin-bottom: -25px;
+}
+
+.name_peluquero {
+    position: absolute;
+    top: 110px;
+    left: 270px;
+}
+
+.info_peluquero {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 140px;
+    left: 235px;
+}
+
+.main_servpeluqueria {
+    height: 700px;
+    position: relative;
+}
+
+.name_peluquero2 {
+    position: absolute;
+    top: 110px;
+    left: 770px;
+}
+
+.info_peluquero2 {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 140px;
+    left: 740px;
+}
+
+.name_peluquero3 {
+    position: absolute;
+    top: 300px;
+    left: 265px;
+}
+
+.info_peluquero3 {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 330px;
+    left: 235px;
+}
+
+.name_peluquero4 {
+    position: absolute;
+    top: 300px;
+    left: 780px;
+}
+
+.info_peluquero4 {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 330px;
+    left: 740px;
+}
+
+.name_peluquero5 {
+    position: absolute;
+    top: 500px;
+    left: 290px;
+}
+
+.info_peluquero5 {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 530px;
+    left: 250px;
+}
+
+.name_peluquero6 {
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    left: 760px;
+}
+
+.info_peluquero6 {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    top: 530px;
+    left: 732px;
+}
+
+.barradebusqueda_serv {
+    color: white;
+    position: absolute;
+    top: 30px;
+    margin-top: 10px;
+}
+
+.barra_busqueda_serv {
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    width: 420px;
+}
+
+.barra__busqueda--boton_serv {
+    height: 38px;
+    width: 40px;
+    border-radius: 30px;
+    border-color: black;
+    position: absolute;
+    left: 380px;
+}
+
+.filter_serv {
+    width: 150px;
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+}
+
+.filter_text {
+    position: absolute;
+    top: 110px;
+    left: 1100px
+}
+
+.filter_precio {
+    position: absolute;
+    top: 350px;
+    left: 1100px
+}
+
+.filter_bar {
+    border-radius: 5px;
+    width: 80px;
+    position: absolute;
+    top: 380px;
+    left: 1095px;
+}
+
+.filter_guion {
+    position: absolute;
+    top: 378px;
+    left: 1183px;
+}
+
+.filter_bar2 {
+    border-radius: 5px;
+    width: 80px;
+    position: absolute;
+    top: 380px;
+    left: 1198px;
+}
+
+.filter_ubicacion {
+    position: absolute;
+    top: 450px;
+    left: 1098px
+}
+
+.filter_cities {
+    position: absolute;
+    top: 480px;
+    right: 705px;
+}
+
+
+
+
+
+.aboutus_text {
+    width: 400px;
+    padding: 15px;
+    line-height: 25px;
+}
+
+.aboutus_title {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.main_aboutus {
+    height: 1000px;
+    position: relative;
+}
+
+.aboutus_video {
+    position: absolute;
+    left: 500px;
+    bottom: 650px;
+}
+
+.aboutus_photo {
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+}
+
+.aboutus_title2 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.card-us {
+    background-color: #ffffff;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.774);
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}
+
+.card__header-us {
+    position: relative;
+}
+
+.card_header-img-us {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card__description-us {
+    margin-bottom: 10px;
+}
+
+.card-us2 {
+    background-color: #ffffff;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.774);
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+
+.card__header-us2 {
+    position: relative;
+}
+
+.card_header-img-us2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card__description-us2 {
+    margin-bottom: 10px;
+}
+
+.card-us3 {
+    background-color: #ffffff;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.774);
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+    left: 1400px;
+}
+
+.card__header-us3 {
+    position: relative;
+}
+
+.card_header-img-us3 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card__description-us3 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 992px) {
+    .courses__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .header__content-navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 578px) {
+    .courses__content {
+        grid-template-columns: 1fr;
+    }
+
+    .statistics__content {
+        flex-direction: column;
+    }
+
+    .statistics__content-data {
+        margin: 30px 0;
+    }
+
+}
+
+@media (max-width: 119px) {
+    .footer__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 104px) {
+    .footer__content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 992px) {
+    .services_content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 370px) {
+    .imagen {
+        display: none;
+    }
+}
+
+@media (max-width: 578px) {
+    .services_content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 993px) {
+    .redes_sociales {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 140px) {
+    .header__content-title {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 84px) {
+    .header__content-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 506px) {
+    .courses__content2 {
+        grid-template-columns: 400px;
+} 
+    .registers_inputs {
+        margin-left: -50px;
+    }
+
+    .card__link2 {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 406px) {
+    .courses__content2 {
+        grid-template-columns: 200px;
+    } 
+    .registers_inputs {
+        margin-left: -70px;
+    }
+
+    .register-input2 {
+        margin-top: 15px;
+        margin-left: 85px;
+    }
+
+    .card__link2 {
+        margin-left: 120px;
+    }
+
+    .register_input3 {
+        width: 150px;
+    }
+
+    .register_input4 {
+        width: 150px;
+    }
+
+    .register_input5 {
+        width: 150px;
+    }
+
+    .register_input6 {
+        width: 150px;
+    }
+
+    .card__link2 {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 212px) {
+    .courses__content2 {
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 160px) {
+    .courses__content2 {
+        margin-left: 120px;
+    }
+}
+
+@media (max-width: 105px) {
+    .courses__content2 {
+        grid-template-columns: 130px;
+    }
+
+    .register_input1 {
+        width: 100px;
+    }
+
+    .register-input2 {
+        width: 100px;
+    }
+
+    .card__link2 {
+        margin-left: 15px;
+        width: 100px;
+    }
+
+    .register_input3 {
+        width: 100px;
+    }
+
+    .register_input4 {
+        width: 100px;
+    }
+
+    .register_input5 {
+        width: 100px;
+    }
+
+    .register_input6 {
+        width: 100px;
+    }
+}
+
+@media (max-width: 104px) {
+    .courses__content2 {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 100px) {
+    .courses__content2 {
+        grid-template-columns: 90px;
+    }
+
+    .card__title2 {
+        font-size: 15px;
+    }
+
+    .register_input1 {
+        width: 50px;
+    }
+
+    .register-input2 {
+        width: 50px;
+    }
+
+    .card__link2 {
+        width: 50px;
+        font-size: 10px;
+    }
+
+    .register_input3 {
+        width: 50px;
+    }
+
+    .register_input4 {
+        width: 50px;
+    }
+
+    .register_input5 {
+        width: 50px;
+    }
+
+    .register_input6 {
+        width: 50px;
+    }
+
+    .register_footer {
+        margin-left: -40px;
+    }
+}
+
+
